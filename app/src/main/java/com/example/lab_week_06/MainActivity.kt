@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     private val catAdapter by lazy {
         //Glide is used here to load the images
-        //Here we are passing the onClickListener function to the Adapter
         CatAdapter(layoutInflater, GlideImageLoader(this), object:
             CatAdapter.OnClickListener {
             //When this is triggered, the pop up dialog will be shown

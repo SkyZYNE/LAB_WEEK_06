@@ -44,7 +44,14 @@ class MainActivity : AppCompatActivity() {
             listOf(
                 CatModel(Gender.Male, CatBreed.BalineseJavanese, "Fred", "Silent and deadly", "https://cdn2.thecatapi.com/images/7dj.jpg"),
                 CatModel(Gender.Female, CatBreed.ExoticShorthair, "Wilma", "Cuddly assassin", "https://cdn2.thecatapi.com/images/egv.jpg"),
-                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg")
+                CatModel(Gender.Unknown, CatBreed.AmericanCurl, "Curious George", "Award winning investigator", "https://cdn2.thecatapi.com/images/bar.jpg"),
+                CatModel(Gender.Male, CatBreed.AmericanCurl, "Akio", "Mischievous troublemaker", "https://cdn2.thecatapi.com/images/bpc.jpg"),
+                CatModel(Gender.Female, CatBreed.BalineseJavanese, "Luna", "Loves climbing trees", "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Simba", "King of the sofa", "https://cdn2.thecatapi.com/images/MWPRkZh6u.jpg"),
+                CatModel(Gender.Female, CatBreed.AmericanCurl, "Jennie", "Always Hungry", "https://cdn2.thecatapi.com/images/OhTkBTPnD.jpg"),
+                CatModel(Gender.Unknown, CatBreed.BalineseJavanese, "Shadow", "Silent observer", "https://cdn2.thecatapi.com/images/37k.jpg"),
+                CatModel(Gender.Male, CatBreed.ExoticShorthair, "Cole", "Lazy but cute", "https://cdn2.thecatapi.com/images/8n8.jpg"),
+                CatModel(Gender.Female, CatBreed.AmericanCurl, "Chloe", "Loves to nap", "https://cdn2.thecatapi.com/images/2nm.jpg")
             )
         )
     }

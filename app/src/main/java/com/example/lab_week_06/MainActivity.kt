@@ -8,6 +8,7 @@ import com.example.lab_week_06.model.CatBreed
 import com.example.lab_week_06.model.CatModel
 import com.example.lab_week_06.model.Gender
 import androidx.appcompat.app.AlertDialog
+import androidx.recyclerview.widget.ItemTouchHelper
 
 class MainActivity : AppCompatActivity() {
     private val recyclerView: RecyclerView by lazy {
@@ -34,6 +35,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(
             this, LinearLayoutManager.VERTICAL, false
         )
+        //Instantiate ItemTouchHelper for the swipe to delete callback and
+        //attach it to the recycler view
+        val itemTouchHelper = ItemTouchHelper(catAdapter.swipeToDeleteCallback)
+        itemTouchHelper.attachToRecyclerView(recyclerView)
         //Add data to the model list in the adapter
         catAdapter.setData(
             listOf(
